@@ -165,9 +165,9 @@ a {
 
 .cover .right-column {
     flex: 1;
-    padding: 20px;
+    margin: 23px;
     color: #fff;
-    height: 600px;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -176,8 +176,9 @@ a {
 .cover .left-column img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
+    mix-blend-mode: darken;
 }
 
 
@@ -186,7 +187,7 @@ a {
     text-align: left;
     margin-bottom: -5px;
     line-height: 1;
-    margin-top:auto;
+    /* margin-top:auto; */
     letter-spacing: -0.2rem;
 } 
 
