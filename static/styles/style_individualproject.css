@@ -261,9 +261,8 @@ a {
 .cover .subtitles .right {
     flex:1;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 3vh;
     
 }
 
