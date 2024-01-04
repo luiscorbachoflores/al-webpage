@@ -1,0 +1,279 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(12, 12, 12);
+    scroll-behavior: smooth;
+}
+
+
+.content {
+    margin: 0 auto;
+    padding: 130px;
+}
+
+
+
+.light {
+    font-weight: 250;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 550;
+}
+
+.extrabold {
+    font-weight: 600;
+}
+
+
+
+#bg-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+h1.align-left {
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 20px 0;
+    color: white;
+}
+
+h2 a {
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+h2 a:hover {
+    color: black;
+}
+
+h2 a:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    z-index: -1;
+    padding: 0px 15px;
+}
+
+h2.align-center {
+    margin: 10px 40px;
+}
+
+h3 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 20px 0;
+    color: white;
+}
+
+h3.align-right {
+    margin-left: auto;
+}
+
+
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.button-rectangle {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.button-rectangle:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+img {
+    vertical-align: middle;
+}
+
+
+
+.projects-scroller {
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+    width: 100%;
+
+    white-space: nowrap;
+    overflow-y: hidden;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+.arrow-scroller {
+    justify-content: flex-start;
+    flex: 1;
+    padding: 1em;
+    padding-bottom: 25vh;
+    margin-left: 0.5vw;
+    margin-right: 2vw;
+    border-radius: 50%;
+}
+
+.arrow-image {
+    transform: rotate(-90deg);
+    border-radius: 50%;
+}
+
+.image-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    opacity: 0.75;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: normal;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.image-circle:hover {
+    background-color: rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+}
+
+
+
+
+.project-info {
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 27.4vw;
+    height: 50vh;
+    margin-top: 8vh;
+    margin-right: 1.7vw;
+    margin-bottom: 4vh;
+}
+
+.project-info a>* {  /* la imagen y el texto van metidos en cada div project-info*/
+    border-radius: 1.25em;
+}
+
+.image-size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    opacity: 0;
+    white-space: initial;
+}
+
+.project-info:hover .image-text {
+    opacity: 1;
+}
+
+.project-info .proyecto-text {
+    font-size: 16px;
+    margin-top: -1px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.project-info .titulo-text {
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.3;
+    text-align: center;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+footer {
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-top: 0.5px solid white;
+    margin-top: 2vh;
+}
