@@ -40,6 +40,13 @@ html {
     z-index: -1;
 }
 
+@media screen and (max-width: 768px) {
+    #bg-wrap{
+        position: fixed;
+        height: 100vh;
+    }
+} 
+
 
 
 header {
@@ -176,6 +183,57 @@ a {
 
 
 
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+        margin-bottom: 4vh;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 2px 0;
+        color: rgb(255, 255, 255);
+        text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    }
+
+    header h2.align-center {
+        margin: 0rem 0.5rem;
+        white-space: nowrap;
+    }
+    header h2 {
+        font-size: 0.6rem;
+    }
+    header h3 {
+        font-size: 0.6rem;
+        margin: 0px;
+        padding: 0rem 0;
+        color: white;
+        line-height: 0.8rem;
+    }
+    header .button-rectangle {
+        width: min-content;
+        display: inline-block;
+        padding: 0.4rem 0.4rem;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.75rem;
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+    }
+    /* header h3.align-right{
+        display: none;
+    } */
+} 
+
+
+
 
 
 .home {
@@ -190,6 +248,8 @@ a {
     color: white;
     size: 20%;
   }
+
+
 
 
 
@@ -238,7 +298,57 @@ p.p4 {
 }
 
 
-
+@media screen and (max-width: 768px) {
+    .home {
+        margin-top: -5vw;
+        height:45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vw;
+        margin-bottom: 10vw;
+    }
+    
+    .home .image-container {
+        display: none;
+      }
+    
+    
+    
+    
+    
+    
+    
+    p.title {
+        font-size: 4rem;
+        line-height: 1;
+        margin: 0;
+        margin-bottom: 0;
+        /* width: 50%; */
+        margin-left: 0px;
+        padding: 0;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        letter-spacing: -2px;
+        text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.9);
+        /* border:1px solid white; */
+    }
+    
+    p.subtitle {
+        font-size: 0.75rem;
+        margin-top: 0rem;
+        padding:0;
+        opacity: 0.7;
+        padding-left: 20%;
+        color: rgba(255, 255, 255, 0.87);
+        text-align: right;
+    }
+    
+    
+    
+    
+}
 
 
 .about_me {
@@ -307,6 +417,78 @@ p.p4 {
 
 
 
+
+@media screen and (max-width: 768px) {
+    p.p1 {
+        font-size: 1rem;
+        margin-top: 1vw;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+
+    .about_me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        background-color: rgba(0, 0, 0, 1);
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* position: relative; */
+    }
+    
+    .about_me .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        padding-left: 2vw;
+    }
+
+    /* .content > *{
+        border:1px solid white;
+    } */
+    
+    .about_me .content .container-vertical {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        text-align: left;
+        position: relative;
+        padding-left: 2vw;
+        border:1px solid white;
+
+    }
+    
+    .about_me .content .container-vertical button {
+        /* position: absolute; */
+        top: -25vw;
+        right: 0vw;
+    }
+    
+    .about_me .content img {
+        max-height: 100%;
+    }
+    
+    .about_me .animated-text {
+        font-size: 200px;
+        color: white;
+        position: absolute;
+        bottom: 8%;
+        left: 0;
+        animation: slideText 13s linear infinite;
+        white-space: nowrap;
+    }
+
+
+}
 
 
 .projects-container {
