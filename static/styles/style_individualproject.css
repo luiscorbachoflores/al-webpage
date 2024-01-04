@@ -691,7 +691,7 @@ ul{
     .description .p5, 
     .description .p6, 
     .description .p7{
-        margin-right: 0;
+        margin-right: 2vw;
         margin-left: 0;
         text-align: right;
     }
@@ -705,6 +705,8 @@ ul{
     .description .left-column{
         margin-bottom:2vh;
         height: 50vh;
+        /* border:1px solid white; */
+        justify-content: flex-end;
     }
     
     .description .image-container {
@@ -717,6 +719,7 @@ ul{
         position: sticky;
         top: 0;
         height:min-content;
+        padding-left: 25vh;
     }
 
 
@@ -759,7 +762,7 @@ ul{
         padding-top: 0.6rem;
         margin-top: -1rem;
         line-height: 1.2;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         color: #d2d2d2;
 
         /* font-size: 12px;
