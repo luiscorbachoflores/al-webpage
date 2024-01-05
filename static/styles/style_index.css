@@ -33,12 +33,12 @@ html {
     z-index: -1;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #bg-wrap{
         position: fixed;
         height: 100vh;
     }
-} 
+}  */
 
 
 
@@ -294,7 +294,7 @@ p.p4 {
 
 @media screen and (max-width: 768px) {
     .home {
-        margin-top: -3vh;
+        margin-top: 5vh;
         padding-top:0;
         height:max-content;
         display: flex;
@@ -302,7 +302,7 @@ p.p4 {
         justify-content: flex-start;
         align-items: center;
         padding: 2vw;
-        margin-bottom: 5vw;
+        margin-bottom: 10vw;
     }
     
     .home .image-container {
@@ -911,13 +911,13 @@ p.p4 {
         display: inline;
         width: 10vw;
         text-decoration: none;
-        color: #9d9c9c;
+        color: #e2e2e2;
         background-color: transparent;
-        border: 0.5px solid white;
+        border: 0.5px solid rgb(201, 199, 199);
         border-radius: 50%;
         text-align: center;
         transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         margin-top: 0;
     }
     
@@ -981,10 +981,10 @@ p.p4 {
     }
     
     .skills .p3 {
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         margin-top: 0px;
         margin-bottom: 0;
-        color: rgb(144, 144, 144);
+        color: rgb(168, 166, 166);
         line-height: 0;
     }
 }
@@ -1069,7 +1069,7 @@ p.p4 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 32vh;
+        height: 45vh;
         margin-top:15vh;
         padding-top: 0vh;
         /* padding-left: 2vw;
@@ -1150,14 +1150,21 @@ footer h2.align-right {
         justify-content: center;
     }
 
+    
+
     footer h1.align-left{
+        
+        margin-right:unset;
         font-size: 2rem;
         margin-bottom:0vh;
         padding-bottom:0;
+
     }
 
+    
+
     footer h2.align-right{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-top:1vh;
         padding-top:0;
         margin-left: 0;
