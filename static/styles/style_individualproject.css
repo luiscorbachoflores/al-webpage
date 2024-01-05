@@ -378,11 +378,13 @@ ul{
     .cover .title {
         font-size: 1.2em; 
         letter-spacing: 0rem;
+        
+        /* padding-bottom: 12vh; */
         vertical-align: bottom;
         text-align: left;
         margin-bottom: 0px;
-        
-        /* padding-bottom: 12vh; */
+        line-height: 1;
+        /* margin-top:auto; */
     }
 
 
@@ -398,7 +400,7 @@ ul{
         
     }
     
-    .cover .subtitles .right .upper{
+    .cover .subtitles .right .upper #button_image{
         display:none;
     }
 
@@ -692,7 +694,7 @@ ul{
     .description {
         display: flex;
         flex-direction: column;
-        margin-bottom: 5vh;
+        margin-bottom: 6vh;
         padding:0.4em;
         padding-top: 3vh;
     }
@@ -895,7 +897,7 @@ ul{
         text-align: center;
         line-height: normal;
         transition: background-color 0.3s, color 0.3s;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         border: 0.5px solid white;
     }
     
@@ -957,6 +959,21 @@ ul{
     vertical-align: middle;
 }
 
+.contact_me a.button-circle:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.contact_me .mensajefinal-text {
+    font-size: 15px;
+    margin-top: 10vh;
+    color: rgba(184, 183, 183, 0.87);
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .contact_me {
         display: flex;
@@ -1012,26 +1029,8 @@ ul{
         margin-top: -11vh;
         margin-bottom:1vh;
         vertical-align: middle;
-    }    
-
-} 
-
-
-
-.contact_me a.button-circle:hover {
-    background-color: white;
-    color: black;
-
-}
-
-.contact_me .mensajefinal-text {
-    font-size: 15px;
-    margin-top: 10vh;
-    color: rgba(184, 183, 183, 0.87);
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) {
+    }  
+    
     .contact_me .mensajefinal-text {
         text-align: center;
         font-size:0.6rem;
@@ -1039,8 +1038,9 @@ ul{
         line-height: 0.9rem;
 
     }
-    
-}
+
+} 
+
 
 
 
