@@ -793,6 +793,7 @@ a {
         font-size:0.6rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
+        justify-content: center;
 
     }
 
@@ -801,18 +802,17 @@ a {
 
 
 footer {
-    height: 25vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 3vw;
 }
 
-
-
 footer h2.align-right {
     margin-left: 2vw;
 }
+
 
 @media screen and (max-width: 768px) {
     footer{
@@ -821,8 +821,6 @@ footer h2.align-right {
         flex-direction: column;
         justify-content: center;
     }
-
-    
 
     footer h1.align-left{
         

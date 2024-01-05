@@ -343,6 +343,7 @@ a {
         font-size:0.8rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
+        justify-content: center;
 
     }
 
@@ -356,6 +357,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0 3vw;
+    text-align: center;
 }
 
 
@@ -370,6 +372,7 @@ footer h2.align-right {
         margin-top:5vh;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
         
     }
 
