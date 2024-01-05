@@ -1296,7 +1296,7 @@ display: none;
         list-style-type: none;
         line-height: 3rem;
         text-align: center;
-        border:1px solid white;
+        /* border:1px solid white; */
     }
 
     #hamburger-menu a {
