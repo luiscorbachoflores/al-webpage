@@ -1204,6 +1204,11 @@ display: none;
 
 
 @media screen and (max-width: 768px) {
+
+    header{
+        display:none;
+    }
+
     .topnav {
         display: flex;
         overflow: hidden;
@@ -1231,10 +1236,6 @@ display: none;
     .active {
         /* background-color: #04AA6D; */
         color: white;
-    }
-    
-    header{
-        display:none;
     }
 
     .topnav label .hamburguer-icon{
