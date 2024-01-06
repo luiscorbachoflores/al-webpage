@@ -1216,16 +1216,19 @@ display: none;
         justify-content: space-between;
         position: relative;
         height: 5vh;
+        align-items: center;
+        padding-left: 5vw;
+
         /* height: min-content; */
     }
 
     
     .topnav a {
         color: white;
-        padding: 12px 16px;
         text-decoration: none;
         font-size: 17px;
         display: block;
+        
     }
     
     .topnav a:hover {
@@ -1238,7 +1241,7 @@ display: none;
         color: white;
     }
 
-    .topnav label .hamburguer-icon{
+    .topnav #hamburger-menu .hamburguer-icon{
         height: 100%;
         margin-left:-3vh;
         filter:invert(1);
@@ -1249,7 +1252,7 @@ display: none;
         
     }
 
-    .topnav label img{
+    .topnav #hamburger-menu img{
         width: 50%;
         /* margin-top: 1vh; */
     }
@@ -1310,7 +1313,7 @@ display: none;
         text-decoration: none;
     }
 
-    #hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    #hamburger-input:checked ~ #hamburger-menu #sidebar-menu {
         visibility: visible;
         right: 0;
     }
