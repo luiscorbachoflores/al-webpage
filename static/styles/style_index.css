@@ -398,10 +398,11 @@ p.p4 {
     font-size: 200px;
     color: white;
     position: absolute;
-    bottom: 8%;
+    bottom: 0;
     left: 0;
     animation: slideText 13s linear infinite;
     white-space: nowrap;
+    line-height:10rem;
 }
 
 @keyframes slideText { /* animación extraida de una biblioteca de animaciones */
