@@ -1211,7 +1211,7 @@ display: none;
 
     .topnav {
         display: flex;
-        overflow: hidden;
+        overflow: visible;
         background-color: #333;
         justify-content: space-between;
         position: relative;
