@@ -1285,6 +1285,7 @@ display: none;
         flex-direction: column;
         align-items: center;
         overflow: hidden;
+        -webkit-transform: translateZ(5);
     }
 
     #hamburger-menu h3 {
@@ -1313,7 +1314,7 @@ display: none;
         text-decoration: none;
     }
 
-    #hamburger-input:checked ~ #hamburger-menu #sidebar-menu {
+    #hamburger-input:checked + #hamburger-menu #sidebar-menu {
         visibility: visible;
         right: 0;
     }
