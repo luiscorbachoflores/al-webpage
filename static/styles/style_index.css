@@ -486,7 +486,8 @@ p.p4 {
         left: 0;
         animation: slideText 10s linear infinite;
         white-space: nowrap;
-        margin-bottom: -2.3vh;
+        line-height: 3rem;
+
         text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.9);
     }
 
