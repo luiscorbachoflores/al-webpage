@@ -376,7 +376,6 @@ footer {
     }
 } 
 
-
 /* indice del movil */
 
 .topnav{
@@ -389,12 +388,8 @@ display: none;
 }
 
 
-
 @media screen and (max-width: 768px) {
 
-    html{
-        overflow-x: hidden;
-    }    
     header{
         display:none;
     }
@@ -402,29 +397,41 @@ display: none;
     .topnav {
         display: flex;
         overflow: visible;
-        background-color: #333;
+        background-color: black;
         justify-content: space-between;
-        position: relative;
+        position: fixed;
         height: 5vh;
         align-items: center;
         padding-left: 5vw;
+        width: 94vw;
+        margin-left: 0;
+        margin-right: 0;
+        top:0;
+        left:0;
+        opacity: 1;
+        z-index: 5;
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
 
         /* height: min-content; */
+
+        top: 0;
+        transition: top 0.3s; /* Transition effect when sliding down (and up) */
     }
 
     
     .topnav a {
         color: white;
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         display: block;
         
     }
     
-    .topnav a:hover {
+    /* .topnav a:hover {
         background-color: #ddd;
         color: black;
-    }
+    } */
     
     .active {
         /* background-color: #04AA6D; */
@@ -466,7 +473,7 @@ display: none;
         right: -850px;
         width: 100%;
         height: 100vh;
-        background-color: gray;
+        background-color: black;
         transition: 0.3s;
         padding: 0px 10px;
         box-sizing: border-box;
@@ -507,5 +514,6 @@ display: none;
         visibility: visible;
         right: 0;
     }
+
 
 }
