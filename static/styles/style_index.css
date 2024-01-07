@@ -1169,7 +1169,7 @@ footer h2.align-right {
 @media screen and (max-width: 768px) {
     footer{
         height: min-content;
-        margin-top:5.5vh;
+        margin-top:3.5vh;
         flex-direction: column;
         justify-content: center;
     }
@@ -1179,14 +1179,14 @@ footer h2.align-right {
     footer h1.align-left{
         
         margin-right:unset;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom:0vh;
         padding-bottom:0;
 
     }
 
     footer h2.align-right{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top:1vh;
         padding-top:0;
         margin-left: 0;

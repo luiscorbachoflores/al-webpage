@@ -3,12 +3,8 @@ html {
     background-color: rgb(12, 12, 12);
     scroll-behavior:smooth;
 }
-
-.content {
-    margin: 0 auto;
-    padding: 130px;
-}
     
+
 
 .light {
     font-weight: 250;
@@ -33,11 +29,14 @@ html {
     z-index: -1;
 }
 
+
+
 @media screen and (max-width: 768px) {
     body {
         overflow-x:hidden;
     }
 } 
+
 
 
 header {
@@ -174,9 +173,6 @@ a {
         background-color: transparent;
         transition: background-color 0.3s ease;
     }
-    /* header h3.align-right{
-        display: none;
-    } */
 } 
 
 
@@ -260,6 +256,7 @@ a {
 }
 
 
+
 @media screen and (max-width: 768px) {
 
     .text-responsive{
@@ -267,8 +264,8 @@ a {
     }
 
     .about {
-        margin-top: 8vh;
-        height: 55vh;
+        margin-top: 15vh;
+        height: 75vh;
         font-size: 36px;
         position: relative;
         background-color: rgba(0, 0, 0, 1);
@@ -301,14 +298,14 @@ a {
         flex: 1;
         padding: 20px;
         padding-left:0;
-        padding-top: 26vh;
+        padding-top: 46vh;
         box-sizing: border-box;
         
     }
     
     .about .rectangle p {
         color: rgba(255, 255, 255, 0.9);
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         line-height: 1.2;
         margin-top: 0;
         margin-left: -32vw;
@@ -324,9 +321,8 @@ a {
     .about .image-container {
         display: none;
     }
-
-
 }
+
 
 
 .quote {
@@ -367,7 +363,7 @@ a {
         align-items: center;
         justify-content: space-evenly;
         padding: 0 0px;
-        padding-top: 10vh;
+        padding-top: 15vh;
         margin-bottom: 100px;
     }
     
@@ -383,15 +379,16 @@ a {
     }
     
     .quote .p2 {
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         margin-top: 0px;
         margin-left: 25vw;
         margin-right: 25vw;
         color: rgba(255, 255, 255, 1);
-        line-height: 1.1;
+        line-height: 1.15;
         text-align: center;
     }
 }
+
 
 
 .skills {
@@ -527,6 +524,7 @@ a {
 }
 
 
+
 @media screen and (max-width: 768px) {
 
     .skills {
@@ -569,7 +567,7 @@ a {
         bottom: 0px;
         padding-right: 30vw;
         padding-left: 2vw;
-        padding-bottom: 1vw;
+        padding-bottom: 2vw;
     }
     
     .skills .pyramid-stage{
@@ -614,8 +612,6 @@ a {
         justify-content: flex-start;
         align-items:flex-end;
         margin-top: 4vh;
-        /* padding-left:5vw; */
-        /* padding-right:0vw; */
     }
 
     .skills .center-space .p1{
@@ -645,11 +641,11 @@ a {
         margin: 0px;
         position:initial;
         list-style: none;
-        padding-left:55vw;
+        padding-left:65vw;
         padding-top: 16vh;
         padding-bottom: 5vh;
         padding-right: 5vw;
-        line-height:0.4;
+        line-height:0.5;
     }
     
     .skills li.p3 {
@@ -664,10 +660,11 @@ a {
         font-size: 0.7rem;
         margin-top: 0px;
         margin-bottom: 0;
-        color: rgb(168, 166, 166);
+        color: rgb(196, 196, 196);
         line-height: 0;
     }
 }
+
 
 
 .contact_me {
@@ -735,6 +732,7 @@ a {
 }
 
 
+
 @media screen and (max-width: 768px) {
     .contact_me {
         display: flex;
@@ -749,8 +747,6 @@ a {
         height: 45vh;
         margin-top:15vh;
         padding-top: 0vh;
-        /* padding-left: 2vw;
-        padding-right: 2vw; */
     }
 
     .contact_me .preguntas-text {
@@ -819,10 +815,11 @@ footer h2.align-right {
 }
 
 
+
 @media screen and (max-width: 768px) {
     footer{
         height: min-content;
-        margin-top:5.5vh;
+        margin-top:3.5vh;
         flex-direction: column;
         justify-content: center;
     }
@@ -830,16 +827,14 @@ footer h2.align-right {
     footer h1.align-left{
         
         margin-right:unset;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom:0vh;
         padding-bottom:0;
 
     }
 
-    
-
     footer h2.align-right{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top:1vh;
         padding-top:0;
         margin-left: 0;
@@ -847,16 +842,15 @@ footer h2.align-right {
 } 
 
 
-/* indice del movil */
 
 .topnav{
     display: none;
 }
 
-
 #hamburger-input{
 display: none;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -883,14 +877,10 @@ display: none;
         z-index: 5;
         padding-top: 1.5vh;
         padding-bottom: 1.5vh;
-
-        /* height: min-content; */
-
         top: 0;
-        transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        transition: top 0.3s;
     }
 
-    
     .topnav a {
         color: white;
         text-decoration: none;
@@ -899,13 +889,7 @@ display: none;
         
     }
     
-    /* .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    } */
-    
     .active {
-        /* background-color: #04AA6D; */
         color: white;
     }
 
@@ -922,7 +906,6 @@ display: none;
 
     .topnav #hamburger-menu .hamburguer-icon img{
         width: 50%;
-        /* margin-top: 1vh; */
     }
 
     #hamburger-menu {
@@ -968,7 +951,6 @@ display: none;
         list-style-type: none;
         line-height: 3rem;
         text-align: center;
-        /* border:1px solid white; */
     }
 
     #hamburger-menu a {
@@ -985,6 +967,4 @@ display: none;
         visibility: visible;
         right: 0;
     }
-
-
 }
