@@ -133,6 +133,10 @@ a {
 
 @media screen and (max-width: 768px) {
 
+    html {
+        overflow-x:hidden;
+    }
+
     header {
         height: 12vh;
         display: flex;
@@ -365,16 +369,19 @@ ul{
     }
     
 
-    .cover .subtitles .right {
+    .cover .right-column .subtitles .right {
         flex:1;
         margin-top:5vh;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content:flex-start;
+        justify-content:flex-end;
         padding-bottom:0vh;
-        border:1px solid white;
         
+    }
+
+    .cover .right-column .right .upper{
+        display:none;
     }
 
     .cover .title {
@@ -402,14 +409,11 @@ ul{
     }
 
     .cover .right-column{
-        border:1px solid white;
         height: 90%;
         padding-bottom: 0;
     }
 
-    .cover .right-column .right .title{
-        border:1px solid white;
-    }
+    
     
     .cover .subtitles .right .upper #button_image{
         display:none;
@@ -419,7 +423,7 @@ ul{
         display: none;
     }
     #title_responsive{
-        display: block;
+        display: inline-block;
     }
 
     .cover .subtitles .left .lower{
