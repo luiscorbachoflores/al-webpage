@@ -337,6 +337,7 @@ ul{
     .cover{
         height: 40vh;
         padding:0.5em;
+        margin-top: 3vh;
     }
 
     .cover .left-column {
@@ -371,7 +372,7 @@ ul{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content:center;
+        justify-content:flex-start;
         padding-bottom:0vh;
         
     }
