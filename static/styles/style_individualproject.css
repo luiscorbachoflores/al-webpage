@@ -1083,6 +1083,10 @@ footer h2.align-right {
 
 
 
+.topnav{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     header{
