@@ -1220,8 +1220,13 @@ display: none;
         height: 5vh;
         align-items: center;
         padding-left: 5vw;
-
+        top: 0;
+        transition: top 0.2s ease-in-out;
         /* height: min-content; */
+    }
+
+    .nav-up {
+        top: -40px;
     }
 
     
@@ -1319,5 +1324,6 @@ display: none;
         visibility: visible;
         right: 0;
     }
+
 
 }
