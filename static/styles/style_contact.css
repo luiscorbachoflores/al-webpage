@@ -389,8 +389,16 @@ footer h2.align-right {
 } 
 
 
+
+/* indice del movil */
+
 .topnav{
     display: none;
+}
+
+
+#hamburger-input{
+display: none;
 }
 
 

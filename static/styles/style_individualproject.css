@@ -1082,10 +1082,17 @@ footer h2.align-right {
 } 
 
 
+/* indice del movil */
 
 .topnav{
     display: none;
 }
+
+
+#hamburger-input{
+display: none;
+}
+
 
 @media screen and (max-width: 768px) {
 
