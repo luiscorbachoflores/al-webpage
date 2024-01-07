@@ -1,4 +1,4 @@
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+/* en el móvil, para esconder la barra de navegación al hacer scroll hacia abajo */
 var prevScrollpos = window.scrollY;
 window.onscroll = function() {
   var currentScrollPos = window.scrollY;
