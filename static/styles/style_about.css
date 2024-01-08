@@ -434,6 +434,7 @@ a {
 .skills .pyramid-stage{
     margin:0px;
     margin-left: 0px;
+    display: flex;
 
 }
 
@@ -475,8 +476,10 @@ a {
 .skills .right-space {
     position:relative;
     width: 100%;
-    height: 120%;
+    height: 100%;
     text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .skills ul.list_skills {
@@ -532,7 +535,7 @@ a {
 @media screen and (max-width: 768px) {
 
     .skills {
-        height: 45vh;
+        height: 50vh;
         font-size: 36px;
         position: relative;
         padding-bottom:4vh;
@@ -579,6 +582,7 @@ a {
         margin-left: 0px;
         padding-top: 0;
         margin-top: 0;
+        display: flex;
     
     }
     
@@ -623,6 +627,7 @@ a {
         text-align: right;
         padding-left: 30vw;
         padding-right:5vw;
+        line-height: 1.1;
     }
 
     .skills .center-space .p2{
@@ -645,11 +650,11 @@ a {
         margin: 0px;
         position:initial;
         list-style: none;
-        padding-left:65vw;
+        padding-left:00vw;
         padding-top: 16vh;
         padding-bottom: 5vh;
         padding-right: 5vw;
-        line-height:0.6;
+        line-height:0.5;
     }
     
     .skills li.p3 {
@@ -681,7 +686,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 630px;
     font-size: 36px;
 }
 
@@ -733,11 +738,14 @@ a {
     font-size: 15px;
     margin-top: 100px;
     color: rgba(184, 183, 183, 0.87);
+    justify-content: center;
+    text-align: center;
 }
 
 
 
 @media screen and (max-width: 768px) {
+
     .contact_me {
         display: flex;
         flex-direction: column;
@@ -748,7 +756,7 @@ a {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 45vh;
+        height: 50vh;
         margin-top:15vh;
         padding-top: 0vh;
     }
@@ -758,7 +766,8 @@ a {
         color: rgba(255, 255, 255, 1);
         line-height: 1.5;
         text-align: center;
-        max-width: 60%;
+        max-width: 90%;
+        white-space: nowrap;
         margin-top: 0;
         margin-bottom:0em;
     }
@@ -795,14 +804,12 @@ a {
     
     .contact_me .mensajefinal-text {
         text-align: center;
-        font-size:0.6rem;
+        font-size:0.55rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
-        justify-content: center;
 
     }
 } 
-
 
 
 footer {
@@ -908,7 +915,7 @@ display: none;
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
-        width: 50%;
+        width: 60%;
     }
 
     #hamburger-menu {
@@ -942,7 +949,7 @@ display: none;
 
     #hamburger-menu h3 {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-top: 5vh;
     }
 

@@ -549,6 +549,7 @@ p.p4 {
     transition: opacity 0.1s ease;
 }
 
+
 .projects .column .image-container:hover .image-text {
     opacity:1;
     border-radius: 0px 0px 20px 20px;
@@ -697,6 +698,7 @@ p.p4 {
 
 
 
+
 .skills {
     height: 900px;
     font-size: 36px;
@@ -736,6 +738,7 @@ p.p4 {
 .skills .pyramid-stage{
     margin:0px;
     margin-left: 0px;
+    display: flex;
 
 }
 
@@ -777,8 +780,10 @@ p.p4 {
 .skills .right-space {
     position:relative;
     width: 100%;
-    height: 120%;
+    height: 100%;
     text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .skills ul.list_skills {
@@ -800,7 +805,7 @@ p.p4 {
     font-weight: bold;
 }
 
-.skills .p2 {
+.skills .p1 {
     font-size: 50px;
     margin-top: 0px;
     color: rgba(255, 255, 255, 1);
@@ -815,7 +820,7 @@ p.p4 {
     line-height: 1.98;
 }
 
-.skills .p4 {
+.skills .p2 {
     font-size: 21px;
     margin-top: 0px;
     color: rgba(255, 255, 255, 1);
@@ -834,7 +839,7 @@ p.p4 {
 @media screen and (max-width: 768px) {
 
     .skills {
-        height: 45vh;
+        height: 50vh;
         font-size: 36px;
         position: relative;
         padding-bottom:4vh;
@@ -873,7 +878,7 @@ p.p4 {
         bottom: 0px;
         padding-right: 30vw;
         padding-left: 2vw;
-        padding-bottom: 1vw;
+        padding-bottom: 2vw;
     }
     
     .skills .pyramid-stage{
@@ -881,6 +886,7 @@ p.p4 {
         margin-left: 0px;
         padding-top: 0;
         margin-top: 0;
+        display: flex;
     
     }
     
@@ -920,14 +926,15 @@ p.p4 {
         margin-top: 4vh;
     }
 
-    .skills .center-space .p2{
+    .skills .center-space .p1{
         font-size: 1rem;   
         text-align: right;
         padding-left: 30vw;
         padding-right:5vw;
+        line-height: 1.1;
     }
 
-    .skills .center-space .p4{
+    .skills .center-space .p2{
         font-size: 0.8rem;
         text-align: right;
         padding-right:5vw;
@@ -947,11 +954,11 @@ p.p4 {
         margin: 0px;
         position:initial;
         list-style: none;
-        padding-left:55vw;
+        padding-left:00vw;
         padding-top: 16vh;
         padding-bottom: 5vh;
         padding-right: 5vw;
-        line-height:0.6;
+        line-height:0.5;
     }
     
     .skills li.p3 {
@@ -966,7 +973,7 @@ p.p4 {
         font-size: 0.7rem;
         margin-top: 0px;
         margin-bottom: 0;
-        color: rgb(168, 166, 166);
+        color: rgb(196, 196, 196);
         line-height: 0;
     }
 }
@@ -1053,7 +1060,7 @@ p.p4 {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 45vh;
+        height: 50vh;
         margin-top:15vh;
         padding-top: 0vh;
     }
@@ -1063,7 +1070,8 @@ p.p4 {
         color: rgba(255, 255, 255, 1);
         line-height: 1.5;
         text-align: center;
-        max-width: 60%;
+        max-width: 90%;
+        white-space: nowrap;
         margin-top: 0;
         margin-bottom:0em;
     }
@@ -1100,7 +1108,7 @@ p.p4 {
     
     .contact_me .mensajefinal-text {
         text-align: center;
-        font-size:0.6rem;
+        font-size:0.55rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
 
@@ -1212,7 +1220,7 @@ display: none;
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
-        width: 50%;
+        width: 60%;
     }
 
     #hamburger-menu {
@@ -1246,7 +1254,7 @@ display: none;
 
     #hamburger-menu h3 {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-top: 5vh;
     }
 
