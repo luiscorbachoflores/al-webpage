@@ -2,7 +2,7 @@
 var prevScrollpos = window.scrollY;
 window.onscroll = function() {
 var currentScrollPos = window.scrollY;
-  if (prevScrollpos > currentScrollPos ||  window.pageYOffset < 50) {
+  if (prevScrollpos > currentScrollPos ||  window.scrollY < 50) {
     document.getElementById("NavBar").style.top = "0";
   } else {
     document.getElementById("NavBar").style.top = "-50px";
