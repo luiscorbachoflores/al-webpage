@@ -178,7 +178,7 @@ a {
 
 
 .about {
-    height: 880px;
+    height: 107.3vh;
     font-size: 36px;
     position: relative;
 }
@@ -193,7 +193,7 @@ a {
     overflow: hidden;
     border-radius: 40px;
     background-color: black;
-    margin-top: -40px;
+    margin-top: -4.87vh;
     display: flex;
 }
 
@@ -212,12 +212,12 @@ a {
 
 .about .rectangle p {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 12px;
+    font-size: 0.9rem;
     line-height: 1.5;
-    margin-top: 270px;
-    margin-left: -80px;
-    margin-right: 60px;
-    padding-bottom: 20px;
+    margin-top: 32.92vh;
+    margin-left: -5.55vw;
+    margin-right: 4.166vw;
+    padding-bottom: 2.44vh;
 }
 
 .about .rectangle p .hola {
@@ -265,7 +265,7 @@ a {
 
     .about {
         margin-top: 15vh;
-        height: 75vh;
+        height: 65vh;
         font-size: 36px;
         position: relative;
         background-color: rgba(0, 0, 0, 1);
@@ -288,19 +288,22 @@ a {
     
     .about .rectangle img {
         width: 100%;
-        height: 100%;
+        height: 105%;
         object-fit: cover;
-        object-position: right 15vw top -15vw ;
+        object-position: right 15vw top -1vh ;
     }
     
     .about .rectangle .text-container {
         position: relative;
         flex: 1;
-        padding: 20px;
+        padding: 1rem;
         padding-left:0;
-        padding-top: 39vh;
+        bottom:0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
         box-sizing: border-box;
-        margin-right: 2vh;
+        margin-right: 1vw;
         
     }
     
