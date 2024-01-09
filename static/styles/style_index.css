@@ -219,7 +219,7 @@ a {
     padding-right: 0;
     text-align: center;
     margin-top: 5vh;
-    margin-left:-5vw;
+    margin-left:-7vw;
   }
 
 p.title {
@@ -461,7 +461,7 @@ p.p4 {
 
 
 .skills {
-    height: fit-content;
+    height: 900px;
     font-size: 36px;
     position: relative;
 }
