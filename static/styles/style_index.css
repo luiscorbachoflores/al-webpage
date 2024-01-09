@@ -175,13 +175,15 @@ a {
     padding: 70px;
     padding-top: 0px;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .table{
     display: flex;
     flex-direction: column;
-    margin-left: 22.5vw;
-    margin-right: 10vw;
+    width: 65vw;
+    max-width: min-content;
 
 }
 
@@ -212,7 +214,12 @@ a {
     size: 20%;
     justify-content: center;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 00%;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 5vh;
   }
 
 p.title {
@@ -230,11 +237,13 @@ p.title {
 
 
 p.subtitle {
-    font-size: 0.6em;
+    font-size: 0.9em;
+    line-height: 2.2vh;
     margin-top: 0;
     color: rgba(255, 255, 255, 0.87);
-    padding-right: 10vw;
+    padding-right: 5vw;
     margin-left: 2vw;
+    text-indent: 1vw;
 }
 
 p.p1 {
