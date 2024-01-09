@@ -339,6 +339,8 @@ img {
 
 
 
+
+
 footer {
     height: 13vh;
     display: flex;
@@ -365,7 +367,7 @@ footer {
         justify-content: center;
         padding-right: 0vh;
         padding-left: 0vh;
-        width: 100%;
+        width: 95%;
     }
 
     footer h2.align-left{
