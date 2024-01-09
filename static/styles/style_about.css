@@ -124,7 +124,7 @@ a {
 
 
 .about {
-    height: 107.3vh;
+    height: 880px;
     font-size: 36px;
     position: relative;
 }
@@ -139,7 +139,7 @@ a {
     overflow: hidden;
     border-radius: 40px;
     background-color: black;
-    margin-top: -4.87vh;
+    margin-top: -40px;
     display: flex;
 }
 
@@ -158,12 +158,12 @@ a {
 
 .about .rectangle p {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 0.9rem;
+    font-size: 12px;
     line-height: 1.5;
-    margin-top: 32.92vh;
-    margin-left: -5.55vw;
-    margin-right: 4.166vw;
-    padding-bottom: 2.44vh;
+    margin-top: 270px;
+    margin-left: -80px;
+    margin-right: 60px;
+    padding-bottom: 20px;
 }
 
 .about .rectangle p .hola {
@@ -200,6 +200,8 @@ a {
 .text-responsive{
     display: inline;
 }
+
+
 
 
 

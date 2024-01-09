@@ -461,7 +461,7 @@ p.p4 {
 
 
 .skills {
-    height: 900px;
+    height: fit-content;
     font-size: 36px;
     position: relative;
 }
@@ -699,7 +699,6 @@ footer h2.align-right {
         align-items: center;
         padding: 2vw;
         margin-bottom: 10vw;
-        /* border:1px solid white; */
     }
     
     .table{
@@ -716,7 +715,11 @@ footer h2.align-right {
     }
     
     .row#row-grafica{
+        all: unset;
+        display: flex;
+        flex-direction: row;
         white-space:initial;
+
     }
     
     .row#row-grafica #row-grafica-column1{
@@ -900,6 +903,7 @@ footer h2.align-right {
 
 
     .home {
+        all:unset;
         margin-top: 20vh;
         padding-top:0;
         height:max-content;
@@ -912,7 +916,6 @@ footer h2.align-right {
     }
     
     .table{
-
         margin-left: 0vw;
         margin-right: 0;
     
@@ -924,6 +927,9 @@ footer h2.align-right {
     }
     
     .row#row-grafica{
+        all: unset;
+        display: flex;
+        flex-direction: row;
         white-space:initial;
     }
     
