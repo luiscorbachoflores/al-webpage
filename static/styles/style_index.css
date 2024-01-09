@@ -189,19 +189,21 @@ a {
     flex-direction: row;
 }
 
+
 .row#row-grafica{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .row#row-grafica #row-grafica-column1{
-    width: 50%;
-    padding-left: 5vh;
+    width: 50vw;
+    padding-left: 5vw;
 }
 .row#row-grafica #row-grafica-column2{
-    width: 50%;
+    width: 45vw;
+    align-items: flex-start;
 }
 
 .home .image-container {
@@ -228,11 +230,11 @@ p.title {
 
 
 p.subtitle {
-    font-size: 1rem;
+    font-size: 0.6em;
     margin-top: 0;
     color: rgba(255, 255, 255, 0.87);
-    padding-right: 15vw;
-    margin-left: 0vw;
+    padding-right: 10vw;
+    margin-left: 2vw;
 }
 
 p.p1 {
