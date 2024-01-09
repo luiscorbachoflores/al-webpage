@@ -171,14 +171,46 @@ a {
 .home {
     height:700px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     padding: 70px;
+    flex-direction: column;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-left: 22.5vw;
+    margin-right: 10vw;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row#row-grafica{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row#row-grafica #row-grafica-column1{
+    width: 50%;
+    padding-left: 5vh;
+}
+.row#row-grafica #row-grafica-column2{
+    width: 50%;
 }
 
 .home .image-container {
     position: relative;
     color: white;
     size: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
   }
 
 p.title {
@@ -186,17 +218,21 @@ p.title {
     line-height: 1;
     margin: 0;
     margin-left: 20px;
-    padding: 150px 0;
+    padding: 0.5vh 0;
     text-align: left;
     color: rgb(255, 255, 255);
     letter-spacing: -2px;
     text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.9);
 }
 
+
+
 p.subtitle {
-    font-size: 15px;
-    margin-top: 373px;
+    font-size: 1rem;
+    margin-top: 0;
     color: rgba(255, 255, 255, 0.87);
+    padding-right: 15vw;
+    margin-left: 0vw;
 }
 
 p.p1 {
@@ -798,11 +834,35 @@ footer h2.align-right {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         padding: 2vw;
         margin-bottom: 10vw;
+        /* border:1px solid white; */
     }
     
+    .table{
+
+        margin-left: 0vw;
+        margin-right: 0;
+    
+    }
+    
+    .row{
+        all:unset;
+        /* border:1px solid white; */
+    }
+    
+    /* .row#row-grafica{
+        all:unset
+    } */
+    
+    .row#row-grafica #row-grafica-column1{
+        all:unset;
+    }
+    .row#row-grafica #row-grafica-column2{
+        all:unset;
+    }
+
     .home .image-container {
         display: none;
       }
@@ -823,13 +883,13 @@ footer h2.align-right {
     
     p.subtitle {
         margin-top: 1vh;
-        font-size: 0.75rem;
+        font-size: 0.5rem;
         padding:0;
         opacity: 0.7;
         line-height: 1.1;
         padding-left: 33%;
         color: rgba(255, 255, 255, 0.87);
-        text-align: right;
+        text-align: left;
     }
 
     p.p1 {
