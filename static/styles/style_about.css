@@ -31,12 +31,6 @@ html {
 
 
 
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x:hidden;
-    }
-} 
-
 
 
 header {
@@ -129,54 +123,6 @@ a {
 
 
 
-@media screen and (max-width: 768px) {
-
-    header {
-        height: 12vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 2vw;
-        margin-bottom: 2vh;
-    }
-    
-    h1 {
-        font-size: 1.5rem;
-        margin: 0;
-        padding: 2px 0;
-        color: rgb(255, 255, 255);
-        text-shadow: 3px 3px 1px rgb(0, 0, 0);
-    }
-
-    header h2.align-center {
-        margin: 0rem 0.5rem;
-        white-space: nowrap;
-    }
-    header h2 {
-        font-size: 0.6rem;
-    }
-    header h3 {
-        font-size: 0.6rem;
-        margin: 0px;
-        padding: 0rem 0;
-        color: white;
-        line-height: 0.8rem;
-    }
-    header .button-rectangle {
-        width: min-content;
-        display: inline-block;
-        padding: 0.4rem 0.4rem;
-        text-decoration: none;
-        color: white;
-        border: 1px solid white;
-        border-radius: 0.75rem;
-        background-color: transparent;
-        transition: background-color 0.3s ease;
-    }
-} 
-
-
-
 .about {
     height: 107.3vh;
     font-size: 36px;
@@ -257,78 +203,6 @@ a {
 
 
 
-@media screen and (max-width: 768px) {
-
-    .text-responsive{
-        display: none;
-    }
-
-    .about {
-        margin-top: 15vh;
-        height: 65vh;
-        font-size: 36px;
-        position: relative;
-        background-color: rgba(0, 0, 0, 1);
-        border-radius: 40px;
-    }
-    
-    .about .rectangle {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: none;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        border-radius: 40px;
-        background-color: transparent;
-        margin-top: 0px;
-        display: flex;
-    }
-    
-    .about .rectangle img {
-        width: 100%;
-        height: 105%;
-        object-fit: cover;
-        object-position: right 15vw top -1vh ;
-    }
-    
-    .about .rectangle .text-container {
-        position: relative;
-        flex: 1;
-        padding: 1rem;
-        padding-left:0;
-        bottom:0;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        box-sizing: border-box;
-        margin-right: 1vw;
-        
-    }
-    
-    .about .rectangle p {
-        color: rgba(255, 255, 255, 0.9);
-        font-size: 0.7rem;
-        line-height: 1.2;
-        margin-top: 0;
-        margin-left: -32vw;
-        margin-right: 0px;
-        padding-bottom: 0px;
-        text-align: right;
-    }
-    
-    .about .rectangle p .hola {
-        font-size: 1.5rem;
-    }
-    
-    .about .image-container {
-        display: none;
-    }
-}
-
-
-
 .quote {
     height: 200px;
     display: flex;
@@ -355,42 +229,6 @@ a {
     color: rgba(255, 255, 255, 1);
     line-height: 1.4;
     text-align: center;
-}
-
-
-
-@media screen and (max-width: 768px) {
-    .quote {
-        height: 20vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 0 0px;
-        padding-top: 15vh;
-        margin-bottom: 100px;
-    }
-    
-    .quote .p1 {
-        font-size: 1rem;
-        margin-top: 0px;
-        margin-right: 15vw;
-        margin-left: 15vw;
-        color: rgba(255, 255, 255, 1);
-        line-height: 1.2;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    
-    .quote .p2 {
-        font-size: 0.7rem;
-        margin-top: 1.5vh;
-        margin-left: 25vw;
-        margin-right: 25vw;
-        color: rgba(255, 255, 255, 1);
-        line-height: 1.15;
-        text-align: center;
-    }
 }
 
 
@@ -530,7 +368,100 @@ a {
     color: #fff;
 }
 
+
+.contact_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.6);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    font-size: 36px;
+}
+
+.contact_me .preguntas-text {
+    font-size: 19px;
+    margin-top: 80px;
+    margin-bottom: -70px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.2;
+    text-align: center;
+    max-width: 45%;
+}
+
+.contact_me .hablemos-text {
+    font-size: 110px;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 100px 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    letter-spacing: -3px;
+    text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.7);
+}
+
+.contact_me a.button-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 12px;
+    margin-top: -50px;
+    vertical-align: middle;
+}
+
+.contact_me a.button-circle:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact_me .mensajefinal-text {
+    font-size: 15px;
+    margin-top: 100px;
+    color: rgba(184, 183, 183, 0.87);
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+
+footer h2.align-right {
+    margin-left: 2vw;
+}
+
+
+.topnav{
+    display: none;
+}
+
+#hamburger-input{
+display: none;
+}
+
+
 @media screen and (max-width: 1340px) {
+    /* para tablets */
+
     .skills ul.list_skills {
         padding-left:00vw;
         white-space: nowrap;
@@ -551,6 +482,158 @@ a {
 
 
 @media screen and (max-width: 768px) {
+    /* para moviles */
+
+    body {
+        overflow-x:hidden;
+    }
+
+
+    header {
+        height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+        margin-bottom: 2vh;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 2px 0;
+        color: rgb(255, 255, 255);
+        text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    }
+
+    header h2.align-center {
+        margin: 0rem 0.5rem;
+        white-space: nowrap;
+    }
+    header h2 {
+        font-size: 0.6rem;
+    }
+    header h3 {
+        font-size: 0.6rem;
+        margin: 0px;
+        padding: 0rem 0;
+        color: white;
+        line-height: 0.8rem;
+    }
+    header .button-rectangle {
+        width: min-content;
+        display: inline-block;
+        padding: 0.4rem 0.4rem;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 0.75rem;
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .text-responsive{
+        display: none;
+    }
+
+    .about {
+        margin-top: 15vh;
+        height: 65vh;
+        font-size: 36px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 1);
+        border-radius: 40px;
+    }
+    
+    .about .rectangle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 40px;
+        background-color: transparent;
+        margin-top: 0px;
+        display: flex;
+    }
+    
+    .about .rectangle img {
+        width: 100%;
+        height: 105%;
+        object-fit: cover;
+        object-position: right 15vw top -1vh ;
+    }
+    
+    .about .rectangle .text-container {
+        position: relative;
+        flex: 1;
+        padding: 1rem;
+        padding-left:0;
+        bottom:0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        box-sizing: border-box;
+        margin-right: 1vw;
+        
+    }
+    
+    .about .rectangle p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 0.7rem;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-left: -32vw;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        text-align: right;
+    }
+    
+    .about .rectangle p .hola {
+        font-size: 1.5rem;
+    }
+    
+    .about .image-container {
+        display: none;
+    }
+
+
+
+    .quote {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 0px;
+        padding-top: 15vh;
+        margin-bottom: 100px;
+    }
+    
+    .quote .p1 {
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-right: 15vw;
+        margin-left: 15vw;
+        color: rgba(255, 255, 255, 1);
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .quote .p2 {
+        font-size: 0.7rem;
+        margin-top: 1.5vh;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        color: rgba(255, 255, 255, 1);
+        line-height: 1.15;
+        text-align: center;
+    }
+
 
     .skills {
         height: 55vh;
@@ -690,79 +773,7 @@ a {
         color: rgb(196, 196, 196);
         line-height: 0;
     }
-}
 
-
-
-.contact_me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(128, 128, 128, 0.6);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 630px;
-    font-size: 36px;
-}
-
-.contact_me .preguntas-text {
-    font-size: 19px;
-    margin-top: 80px;
-    margin-bottom: -70px;
-    color: rgba(255, 255, 255, 1);
-    line-height: 1.2;
-    text-align: center;
-    max-width: 45%;
-}
-
-.contact_me .hablemos-text {
-    font-size: 110px;
-    line-height: 1;
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 100px 0;
-    text-align: left;
-    color: rgb(255, 255, 255);
-    letter-spacing: -3px;
-    text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.7);
-}
-
-.contact_me a.button-circle {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    text-decoration: none;
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 12px;
-    margin-top: -50px;
-    vertical-align: middle;
-}
-
-.contact_me a.button-circle:hover {
-    background-color: white;
-    color: black;
-}
-
-.contact_me .mensajefinal-text {
-    font-size: 15px;
-    margin-top: 100px;
-    color: rgba(184, 183, 183, 0.87);
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-@media screen and (max-width: 768px) {
 
     .contact_me {
         display: flex;
@@ -827,24 +838,9 @@ a {
         line-height: 0.9rem;
 
     }
-} 
-
-
-footer {
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3vw;
-}
-
-footer h2.align-right {
-    margin-left: 2vw;
-}
 
 
 
-@media screen and (max-width: 768px) {
     footer{
         height: min-content;
         margin-top:3.5vh;
@@ -867,21 +863,8 @@ footer h2.align-right {
         padding-top:0;
         margin-left: 0;
     }
-} 
 
-
-
-.topnav{
-    display: none;
-}
-
-#hamburger-input{
-display: none;
-}
-
-
-
-@media screen and (max-width: 768px) {
+    
 
     header{
         display:none;
