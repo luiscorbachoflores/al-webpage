@@ -220,6 +220,11 @@ display: none;
 
 @media screen and (max-width: 768px) {
 
+    html, body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
     header{
         display:none;
     }

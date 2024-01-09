@@ -693,7 +693,9 @@ ul{
     .description .p4, 
     .description .p5, 
     .description .p6, 
-    .description .p7{
+    .description .p7,
+    .description .button-project
+    {
         margin-right: 2vw;
         margin-left: 0;
         text-align: right;
@@ -714,7 +716,6 @@ ul{
         margin-bottom:2vh;
         height: 50vh;
         padding-top:0rem;
-
     }
 
     .description .right-column {
@@ -732,6 +733,10 @@ ul{
         top: 0;
         height:min-content;
         padding-left: 19vh;
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .description .p3{
@@ -794,9 +799,8 @@ ul{
         text-align: center;
         line-height: normal;
         transition: background-color 0.3s, color 0.3s;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         border: 0.5px solid white;
-        margin-left: 25vw;
         cursor: pointer;
     }
 } 
