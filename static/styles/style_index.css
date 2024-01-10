@@ -910,7 +910,7 @@ footer h2.align-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items:center;
         padding: 2vw;
         margin-bottom: 10vw;
     }
