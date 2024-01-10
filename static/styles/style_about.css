@@ -335,6 +335,7 @@ a {
     margin-right: 10px;
     margin-bottom: 1.5px;
     transition: font-weight 0.3s;
+    white-space: nowrap;
 }
 
 .skills li.p3:hover {
