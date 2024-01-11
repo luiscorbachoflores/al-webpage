@@ -1,4 +1,4 @@
-/* para el svcroll del project.html */
+/* para el scroll del project.html */
 function scrollToElement(event, elementId) {
   event.preventDefault();
 
