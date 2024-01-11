@@ -791,7 +791,7 @@ footer h2.align-right {
     }
 
     .projects-container .header p.p1{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     
     .projects {
@@ -829,14 +829,14 @@ footer h2.align-right {
     .projects .column .image-container {
         position: relative;
         width: 100%;
-        height: 55vh;
+        height: 60vh;
         overflow: hidden;
         border-radius: 20px;
     }
     
     .projects .column .image-container img {
         width: 100%;
-        height: 45vh;
+        height: 50vh;
         object-fit: cover;
         filter: none;
         border-radius: 20px;
@@ -858,7 +858,7 @@ footer h2.align-right {
     }
     
     .projects .proyecto-text {
-        font-size: 0.75rem;
+        font-size: 1rem;
         margin-top: -1px;
         color: rgba(255, 255, 255, 1);
         line-height: 1.3;
@@ -869,7 +869,7 @@ footer h2.align-right {
     }
     
     .projects .titulo-text {
-        font-size: 1rem;
+        font-size: 1.25rem;
         margin-top: 1rem;
         color: rgba(255, 255, 255, 1);
         line-height: 1.3;
