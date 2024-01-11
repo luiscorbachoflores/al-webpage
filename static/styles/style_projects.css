@@ -276,7 +276,36 @@ footer h2 a {
 display: none;
 }
 
+@media screen and (max-width: 1368px) {
+    .projects-scroller {
+        padding: 0;
+        margin: 0;
+        overflow-x: scroll;
+        width: 100%;
+        white-space: nowrap;
+        overflow-y: hidden;
+        height: 60vh;
+        display: flex;
+        align-items: flex-end;
+    }
 
+    .arrow-scroller{
+        display: none;
+    }
+
+    .project-info {
+        position: relative;
+        flex: 0 0 auto;
+        margin-right: 2vw;
+        justify-content: center;
+        align-items: center;
+        width: 35vw;
+        height: 50vh;
+        margin-top: 8vh;
+        margin-right: 1.7vw;
+        margin-bottom: 4vh;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
