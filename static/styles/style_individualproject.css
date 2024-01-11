@@ -184,7 +184,7 @@ a {
     font-size: 8.6em;
     text-align: left;
     margin-bottom: -5px;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: -0.2rem;
 } 
 
@@ -798,7 +798,7 @@ display: none;
         font-size: 1.3em; 
         letter-spacing: 0rem;
         text-align: left;
-        line-height:0.9;
+        line-height:1.1;
         vertical-align: bottom;
     }
 

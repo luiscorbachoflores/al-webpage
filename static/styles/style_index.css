@@ -742,6 +742,8 @@ footer h2.align-right {
         display: none;
       }
     
+    
+    
     p.title {
         font-size: 6rem;
         line-height: 1.1;
@@ -798,7 +800,7 @@ footer h2.align-right {
         display: flex;
         justify-content: space-between;
         height: 55vh;
-        padding-bottom: 8vh;
+        padding-bottom: 10vh;
         margin-left: 1vw;
         margin-right: 1vw;
     }
@@ -894,7 +896,7 @@ footer h2.align-right {
 
     .skills ul.list_skills {
         padding-left:00vw;
-        padding-right: 2vw;
+        padding-right: 1.6vw;
         white-space: nowrap;
     }
     .skills .p2 {

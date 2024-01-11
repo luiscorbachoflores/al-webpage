@@ -475,21 +475,28 @@ display: none;
         padding-bottom: 0px;
     }
     
+    .skills {
+        height: 115vh;
+        font-size: 36px;
+        position: relative;
+        padding-bottom:4vh;
+        margin-left:0.5vh;
+        margin-right: 0.5vh;
+    }
+
     .skills ul.list_skills {
         padding-left:00vw;
+        padding-right: 1.6vw;
         white-space: nowrap;
     }
-    .skills .p1 {
+    .skills .p2 {
         font-size: 1.6rem;
     }
-    .skills .p2 {
+    .skills .p4 {
         font-size: 1.4rem;
     }
     .skills .p3 {
         font-size: 1.2rem;
-    }
-    .skills {
-        height: 115vh;
     }
 }
 
