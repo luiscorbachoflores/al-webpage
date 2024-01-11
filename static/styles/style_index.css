@@ -313,6 +313,7 @@ p.p4 {
     text-align: left;
     position: relative;
     padding-left: 55px;
+    padding-right: 10vw;
 }
 
 .about_me .content .container-vertical button {
@@ -320,6 +321,7 @@ p.p4 {
     top: -150px;
     right: 0px;
 }
+
 
 .about_me .content img {
     max-height: 100%;
