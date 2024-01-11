@@ -884,7 +884,7 @@ footer h2.align-right {
 
     
     .skills {
-        height: 55vh;
+        height: 115vh;
         font-size: 36px;
         position: relative;
         padding-bottom:4vh;
@@ -904,9 +904,6 @@ footer h2.align-right {
     }
     .skills .p3 {
         font-size: 1.2rem;
-    }
-    .skills {
-        height: 115vh;
     }
 }
 
@@ -1159,6 +1156,14 @@ footer h2.align-right {
         text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.9);
     }
 
+    .skills {
+        height: 55vh;
+        font-size: 36px;
+        position: relative;
+        padding-bottom:4vh;
+        margin-left:0.5vh;
+        margin-right: 0.5vh;
+    }
     
     .skills .rectangle {
         position: absolute;
