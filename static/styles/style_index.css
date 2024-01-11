@@ -766,6 +766,11 @@ footer h2.align-right {
         line-height: 1;
     }
 
+    .about_me .content .container-vertical button{
+        position: absolute;
+        top: -200px;
+        right: 0px;
+    }
 
 
     .projects-container {
