@@ -35,10 +35,6 @@ svg {
 
 
 
-
-
-
-
 header {
     height: 100px;
     display: flex;
@@ -215,7 +211,6 @@ a {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    
 }
 
 .cover .subtitles .right img{
@@ -323,10 +318,6 @@ ul{
     text-align: center;
     z-index: 0;
 }
-
-
-
-
 
 
 
@@ -524,8 +515,6 @@ ul{
 
 
 
-
-
 .contact_me {
     display: flex;
     flex-direction: column;
@@ -594,10 +583,6 @@ ul{
 
 
 
-
-
-
-
 footer {
     height: 20vh;
     display: flex;
@@ -611,6 +596,7 @@ footer h2.align-right {
 }
 
 
+
 .topnav{
     display: none;
 }
@@ -618,6 +604,8 @@ footer h2.align-right {
 #hamburger-input{
 display: none;
 }
+
+
 
 @media screen and (max-width: 768px) {
     html,body {
@@ -658,7 +646,6 @@ display: none;
         text-decoration: none;
         font-size: 1.8rem;
         display: block;
-        
     }
     
     .active {
@@ -673,7 +660,6 @@ display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
@@ -752,7 +738,6 @@ display: none;
 
 
 
-
 @media screen and (max-width: 768px) {
     /* para moviles */
     .cover{
@@ -783,7 +768,6 @@ display: none;
         display: flex;
         flex-direction: column;
         overflow: hidden;
-   
     }
 
     .cover .right-column .subtitles .right {
@@ -842,7 +826,6 @@ display: none;
         list-style: none;
         margin: 0;
         padding:0;
-        
     }
 
     .cover .subtitles .left-list-title {
@@ -981,10 +964,7 @@ display: none;
         padding-top: 0vh;
         margin-left: 1.2rem;
         line-height: 0.9rem;
-        
     }
-
-
     
     .description .p4 {
         font-size: 1.3rem;
@@ -1126,7 +1106,6 @@ display: none;
         font-size:0.55rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
-
     }
 
 
