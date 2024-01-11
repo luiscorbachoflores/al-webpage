@@ -765,16 +765,16 @@ footer h2.align-right {
         white-space: nowrap;
     }
     .skills .p2 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .skills .p4 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .skills .p3 {
         font-size: 1.2rem;
     }
     .skills {
-        height: 120vh;
+        height: 115vh;
     }
 }
 

@@ -474,26 +474,22 @@ display: none;
         margin-top: 0px;
         padding-bottom: 0px;
     }
-
-    .about .rectangle img{
-
-    }
     
     .skills ul.list_skills {
         padding-left:00vw;
         white-space: nowrap;
     }
     .skills .p1 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .skills .p2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .skills .p3 {
         font-size: 1.2rem;
     }
     .skills {
-        height: 100vh;
+        height: 115vh;
     }
 }
 
