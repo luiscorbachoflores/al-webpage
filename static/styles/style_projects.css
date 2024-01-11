@@ -62,17 +62,17 @@ h2 {
     color: white;
 }
 
-h2 a {
+header h2 a {
     text-decoration: none;
     position: relative;
     transition: color 0.3s, background-color 0.3s;
 }
 
-h2 a:hover {
+header h2 a:hover {
     color: black;
 }
 
-h2 a:hover::before {
+header h2 a:hover::before {
     content: "";
     position: absolute;
     top: 0;
@@ -261,7 +261,10 @@ footer {
     margin-top: 2vh;
 }
 
-
+footer h2 a {
+    text-decoration: none;
+    position: relative;
+}
 
 .topnav{
     display: none;

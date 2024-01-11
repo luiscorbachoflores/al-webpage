@@ -605,6 +605,15 @@ footer h2.align-right {
 display: none;
 }
 
+@media screen and (max-width: 1768px) {
+    .cover .title {
+        font-size: 8em;
+        text-align: left;
+        margin-bottom: -5px;
+        line-height: 1;
+        letter-spacing: -0.2rem;
+    }    
+}
 
 
 @media screen and (max-width: 768px) {
