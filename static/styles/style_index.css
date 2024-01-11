@@ -316,9 +316,9 @@ p.p4 {
     padding-right: 10vw;
 }
 
-.about_me .content .container-vertical button {
+.about_me .content .container-vertical button{
     position: absolute;
-    top: -150px;
+    top: -160px;
     right: 0px;
 }
 
@@ -1138,8 +1138,7 @@ footer h2.align-right {
 
     }
     
-    .about_me .content .container-vertical button {
-        
+    .about_me .content .container-vertical button{
         display:none;
     }
     
