@@ -712,7 +712,6 @@ footer h2.align-right {
     }
     
     .table{
-
         margin-left: 0vw;
         margin-right: 0;
         max-width:fit-content;
@@ -721,7 +720,6 @@ footer h2.align-right {
     .row{
         all:unset;
         white-space: nowrap;
-        /* border:1px solid white; */
     }
     
     .row#row-grafica{
