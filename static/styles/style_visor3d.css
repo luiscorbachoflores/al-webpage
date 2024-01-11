@@ -281,7 +281,6 @@ display: none;
         text-decoration: none;
         font-size: 1.8rem;
         display: block;
-        
     }
     
     .active {
@@ -296,7 +295,6 @@ display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
