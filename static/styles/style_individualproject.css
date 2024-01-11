@@ -799,7 +799,8 @@ display: none;
         letter-spacing: 0rem;
         text-align: left;
         line-height:normal;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
+        vertical-align: bottom;
     }
 
     .cover .subtitles {
@@ -907,6 +908,7 @@ display: none;
         margin-left: 5vw;
         margin-right: 5vw;
         padding-top: 0vh;
+        line-height: 1;
     }
 
 
