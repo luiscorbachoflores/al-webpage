@@ -729,6 +729,7 @@ footer h2.align-right {
         display: flex;
         flex-direction: row;
         white-space:initial;
+        align-items:flex-end;
     }
     
     .row#row-grafica #row-grafica-column1{
