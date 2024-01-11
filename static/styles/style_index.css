@@ -243,8 +243,6 @@ p.title {
     text-shadow: 2px 2px 4px rgba(29, 29, 29, 0.9);
 }
 
-
-
 p.subtitle {
     vertical-align: bottom;
     font-size: 0.9em;
@@ -438,7 +436,6 @@ p.p4 {
     opacity: 0;
     transition: opacity 0.1s ease;
 }
-
 
 .projects .column .image-container:hover .image-text {
     opacity:1;
@@ -717,7 +714,6 @@ footer h2.align-right {
 
         margin-left: 0vw;
         margin-right: 0;
-    
     }
     
     .row{
@@ -761,7 +757,6 @@ footer h2.align-right {
     p.subtitle{
         padding-right: 0;
         width: 30vw;
-
     }
 
     .skills ul.list_skills {
@@ -781,6 +776,7 @@ footer h2.align-right {
         height: 100vh;
     }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -829,8 +825,7 @@ footer h2.align-right {
         color: white;
         text-decoration: none;
         font-size: 1.8rem;
-        display: block;
-        
+        display: block;  
     }
     
     .active {
