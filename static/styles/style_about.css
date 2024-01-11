@@ -470,12 +470,14 @@ display: none;
     .about .rectangle .text-container {
         display: flex;
         align-items: flex-end;
+        border:1px solid white;
     }
     
     .about .rectangle p {
         flex:1;
         margin-top: 0px;
         padding-bottom: 0px;
+        border:1px solid red;
     }
 
     .skills ul.list_skills {
@@ -582,6 +584,7 @@ display: none;
         object-fit: cover;
         top:0;
         margin-right: 25vw;
+        border:1px solid white;
     }
 
     
@@ -597,7 +600,7 @@ display: none;
         align-items: flex-end;
         box-sizing: border-box;
         margin-right: 1vw;
-        
+        border:1px solid blue;
     }
     
     .about .rectangle p {
@@ -609,6 +612,7 @@ display: none;
         margin-right: 0px;
         padding-bottom: 0px;
         text-align: right;
+        border:1px solid white;
     }
     
     .about .rectangle p .hola {
