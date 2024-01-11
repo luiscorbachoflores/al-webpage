@@ -765,7 +765,7 @@ footer h2.align-right {
 
     .projects-container {
         position: relative;
-        padding-top: 12vh;
+        padding-top: 15vh;
     }
 
     .projects-container .header button{
@@ -782,7 +782,7 @@ footer h2.align-right {
     }
     
     .projects-container .header .text {
-        font-size: 1rem;
+        font-size: 1.25rem;
         flex: 1;
         text-align: right;
         overflow: hidden;
