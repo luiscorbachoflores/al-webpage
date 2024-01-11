@@ -463,6 +463,18 @@ display: none;
 @media screen and (max-width: 1340px) {
     /* para tablets */
 
+    /* solo cambiar estas lineas en github*/
+    .about .rectangle .text-container {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .about .rectangle p {
+        flex:1;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    
     .skills ul.list_skills {
         padding-left:00vw;
         white-space: nowrap;
