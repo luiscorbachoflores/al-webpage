@@ -582,7 +582,7 @@ display: none;
         height: 105%;
         object-fit: cover;
         top:0;
-        margin-right: 25vw;
+        margin-left: -25vw;
     }
     
     .about .rectangle .text-container {
