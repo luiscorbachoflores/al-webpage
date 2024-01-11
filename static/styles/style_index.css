@@ -807,7 +807,7 @@ footer h2.align-right {
     .projects {
         display: flex;
         justify-content: space-between;
-        height: 35vh;
+        height: 55vh;
         padding-bottom: 10vh;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -846,7 +846,7 @@ footer h2.align-right {
     
     .projects .column .image-container img {
         width: 100%;
-        height: 25vh;
+        height: 45vh;
         object-fit: cover;
         filter: none;
         border-radius: 20px;
