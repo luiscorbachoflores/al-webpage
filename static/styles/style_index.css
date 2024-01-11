@@ -768,7 +768,7 @@ footer h2.align-right {
 
     .about_me .content .container-vertical button{
         position: absolute;
-        top: -130px;
+        top: -100px;
         right: 0px;
     }
 
@@ -807,7 +807,7 @@ footer h2.align-right {
     .projects {
         display: flex;
         justify-content: space-between;
-        height: 55vh;
+        height: 35vh;
         padding-bottom: 10vh;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -839,14 +839,14 @@ footer h2.align-right {
     .projects .column .image-container {
         position: relative;
         width: 100%;
-        height: 30vh;
+        height: 100%;
         overflow: hidden;
         border-radius: 20px;
     }
     
     .projects .column .image-container img {
         width: 100%;
-        height: 20vh;
+        height: 25vh;
         object-fit: cover;
         filter: none;
         border-radius: 20px;
@@ -894,7 +894,7 @@ footer h2.align-right {
 
     
     .skills {
-        height: 115vh;
+        height: 90vh;
         font-size: 36px;
         position: relative;
         padding-bottom:4vh;
