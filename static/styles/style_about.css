@@ -474,6 +474,10 @@ display: none;
         margin-top: 0px;
         padding-bottom: 0px;
     }
+
+    .about .rectangle img{
+
+    }
     
     .skills ul.list_skills {
         padding-left:00vw;
@@ -577,7 +581,8 @@ display: none;
         width: 100%;
         height: 105%;
         object-fit: cover;
-        object-position: right 15vw top -1vh ;
+        top:0;
+        margin-right: 25vw;
     }
     
     .about .rectangle .text-container {
