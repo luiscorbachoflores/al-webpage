@@ -141,7 +141,6 @@ img {
     height: 60vh;
     display: flex;
     align-items: flex-end;
-
 }
 
 .arrow-scroller {
@@ -252,11 +251,6 @@ img {
 
 
 
-
-
-
-
-
 footer {
     height: 13vh;
     display: flex;
@@ -314,7 +308,6 @@ display: none;
         text-decoration: none;
         font-size: 1.8rem;
         display: block;
-        
     }
     
     .active {
@@ -329,7 +322,6 @@ display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
@@ -505,7 +497,6 @@ display: none;
         padding-bottom:0;
         text-align: center;
         line-height: 1.1;
-
     }
 
     footer h2.align-right{
