@@ -299,12 +299,13 @@ display: none;
         margin-right: 2vw;
         justify-content: center;
         align-items: center;
-        width: 35vw;
+        width: 50vw;
         height: 50vh;
         margin-top: 8vh;
         margin-right: 1.7vw;
         margin-bottom: 4vh;
     }
+
 }
 
 @media screen and (max-width: 768px) {
