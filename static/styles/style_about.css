@@ -31,8 +31,6 @@ html {
 
 
 
-
-
 header {
     height: 100px;
     display: flex;
@@ -203,8 +201,6 @@ a {
 
 
 
-
-
 .quote {
     height: 200px;
     display: flex;
@@ -372,6 +368,7 @@ a {
 }
 
 
+
 .contact_me {
     display: flex;
     flex-direction: column;
@@ -460,6 +457,7 @@ footer h2.align-right {
 #hamburger-input{
 display: none;
 }
+
 
 
 @media screen and (max-width: 1340px) {
@@ -637,6 +635,7 @@ display: none;
         text-align: center;
     }
 
+    
 
     .skills {
         height: 55vh;
@@ -777,6 +776,7 @@ display: none;
         line-height: 0;
     }
 
+    
 
     .contact_me {
         display: flex;
