@@ -839,14 +839,14 @@ footer h2.align-right {
     .projects .column .image-container {
         position: relative;
         width: 100%;
-        height: 60vh;
+        height: 30vh;
         overflow: hidden;
         border-radius: 20px;
     }
     
     .projects .column .image-container img {
         width: 100%;
-        height: 50vh;
+        height: 20vh;
         object-fit: cover;
         filter: none;
         border-radius: 20px;
