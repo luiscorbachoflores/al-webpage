@@ -607,6 +607,7 @@ p.p4 {
 }
 
 
+
 .contact_me {
     display: flex;
     flex-direction: column;
@@ -730,7 +731,6 @@ footer h2.align-right {
         display: flex;
         flex-direction: row;
         white-space:initial;
-
     }
     
     .row#row-grafica #row-grafica-column1{
@@ -845,7 +845,6 @@ footer h2.align-right {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     .topnav #hamburger-menu .hamburguer-icon img{
@@ -921,6 +920,7 @@ footer h2.align-right {
         display: flex;
     }
 
+    
     .home {
         margin-top: 20vh;
         padding-top:0;
@@ -951,7 +951,6 @@ footer h2.align-right {
         margin-bottom: 1vh;
     }
     
-
     p.subtitle {
         margin-top: 1vh;
         font-size: 0.75rem;
@@ -965,8 +964,6 @@ footer h2.align-right {
         margin-left: 0vw;
         margin-right: 0;
         width: 75vw;
-        
-
     }
 
     p.p1 {
@@ -1073,8 +1070,6 @@ footer h2.align-right {
         padding-bottom: 8vh;
         margin-left: 1vw;
         margin-right: 1vw;
-        
-        
     }
     
     .projects .column {
@@ -1156,6 +1151,8 @@ footer h2.align-right {
         display: block;
     }
 
+
+    
     .skills {
         height: 55vh;
         font-size: 36px;
@@ -1205,7 +1202,6 @@ footer h2.align-right {
         padding-top: 0;
         margin-top: 0;
         display: flex;
-    
     }
     
     .skills .pyramid button {
@@ -1295,6 +1291,8 @@ footer h2.align-right {
         line-height: 0;
     }
 
+
+    
     .contact_me {
         display: flex;
         flex-direction: column;
@@ -1356,9 +1354,9 @@ footer h2.align-right {
         font-size:0.55rem;
         margin-top: 1.4vh;
         line-height: 0.9rem;
-
     }
 
+    
 
     footer{
         height: min-content;
@@ -1373,7 +1371,6 @@ footer h2.align-right {
         font-size: 1.5rem;
         margin-bottom:0vh;
         padding-bottom:0;
-
     }
 
     footer h2.align-right{
