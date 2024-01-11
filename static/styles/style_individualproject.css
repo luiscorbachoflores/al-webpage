@@ -152,7 +152,7 @@ a {
 }
 
 #img-diez-negritos{
-    mix-blend-mode: normal;
+   object-fit:cover;
 }
 
 .cover .left-column {
