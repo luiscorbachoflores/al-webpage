@@ -758,9 +758,12 @@ footer h2.align-right {
         margin-bottom: 1vh;
     }
 
+
+    
     p.subtitle{
         padding-right: 0;
         width: 30vw;
+        line-height: 1.5;
     }
 
 
